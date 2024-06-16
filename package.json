@@ -1,0 +1,26 @@
+{
+  "name": "solidity-project-collection",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "local:account": "npx hardhat node",
+    "local:Bank": "npx hardhat ignition deploy ignition/modules/Bank.js --network localhost",
+    "local:CrowdFunding": "npx hardhat ignition deploy ignition/modules/Bank.js --network localhost",
+    "local:EtherWallet": "npx hardhat ignition deploy ignition/modules/Bank.js --network localhost",
+    "local:MultiSigWallet": "npx hardhat ignition deploy ignition/modules/Bank.js --network localhost",
+    "local:TodoList": "npx hardhat ignition deploy ignition/modules/Bank.js --network localhost",
+    "local:WETH": "npx hardhat ignition deploy ignition/modules/Bank.js --network localhost",
+    "test": "hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^5.1.1",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
